@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 0.9rem;
+    padding: 0 0.2rem 0;
+    border-bottom: 0.02rem solid rgba(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.return-icon {
+    height: 0.4rem;
+    width: 0.4rem;
+    background-image: url('../src/images/left.png');
+    background-size: cover;
+}
+.header-tip {
+    color: #383838;
+    font-size: 0.3rem;
+}
+.mic-icon {
+    height: 0.4rem;
+    width: 0.4rem;
+    background: url('../src/images/mic.png');
+    background-size: cover;
+}
+.type-container {
+    height: 2.38rem;
+    border-bottom: 0.16rem solid #F7F7F7;
+    border-top: 0.16rem solid #ffffff;
+    padding: 0 0.2rem 0;
+    display: flex;
+    align-items: center;
+}
+.version {
+    height: 2.28rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advanced {
+    margin-right: 0.2rem;
+}
+.custom {
+    margin-left: 0.2rem;
+}
+.version-checked {
+    background-color: #FFF8F6;
+    border: 0.02rem solid #F9AC9F;
+}
+.version-name-checked {
+    color: #FF595F;
+    font-size: 0.32rem;
+    font-weight: 900;
+}
+.version-tip-checked {
+    font-size: 0.24rem;
+    color: #FFA1A2;
+    transform: scale(0.833333);
+}
+.version-unchecked {
+    border: 0.02rem solid #F2F2F2;
+    background-color: #F6F6F6;
+}
+.version-name-unchecked {
+    color: #363636;
+    font-size: 0.32rem;
+    font-weight: 900;
+} 
+.version-tip-unchecked {
+    font-size: 0.24rem;
+    color: #B4B4B4;
+    transform: scale(0.833333);
+}
